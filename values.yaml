@@ -1,0 +1,9 @@
+appName: myhelmapp
+namespace: default
+configmap:
+  name: myconfigmap
+  data:
+    CUSTOM_HEADER: "Changing the header, should be reflected"
+image: 
+  name: devopsjourney1/mywebapp
+  tag: latest
